@@ -1,0 +1,66 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    concepts.txt                                       :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ymarcais <ymarcais@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/03/16 14:12:57 by ymarcais          #+#    #+#              #
+#    Updated: 2023/03/18 11:26:51 by ymarcais         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+red black binary tree:  Les arbres binaires rouges et noirs sont des structures \
+            de données qui permettent de stocker des éléments dans un arbre \
+            binaire de recherche. Les règles qui régissent ces arbres sont \
+            les suivantes :
+
+            1- Chaque nœud est soit rouge, soit noir.
+            2- La racine de l'arbre est noire.
+            3- Toutes les feuilles de l'arbre sont noires (elles peuvent être \
+            vues comme des nœuds vides).
+            4- Si un nœud est rouge, alors ses enfants sont noirs.
+            5- Pour chaque nœud, tous les chemins depuis ce nœud jusqu'à ses \
+            feuilles contiennent le même nombre de nœuds noirs.
+
+            Ces règles garantissent que l'arbre reste équilibré et que les \
+            opérations de recherche, d'insertion et de suppression d'éléments \
+            peuvent être effectuées en temps logarithmique par rapport au nombre \
+            d'éléments dans l'arbre.
+
+rescaling:  The rescaling step can be done using a variety of techniques, such as \
+            normalization or standardization. For example, one common approach is \
+            to rescale the data to have zero-mean and unit-variance by subtracting \
+            the mean of the data and dividing by the standard deviation. This can \
+            be done using standard preprocessing functions in libraries such as \
+            Scikit-learn or Keras.
+
+sigmoid:    The sigmoid function is defined for all real numbers and can take both \
+            positive and negative inputs. The output of the sigmoid function is a \
+            value between 0 and 1, which represents the probability that the input \
+            belongs to the positive class.
+
+softmax:    is function used in the output layer of a neural network for multi-class \
+            classification tasks. It is a type of activation function that transforms \
+            the output of a neural network into a probability distribution over the \
+            possible classes. Softmax ensures that the output probabilities sum up to 1 \
+
+            The softmax activation function takes a vector of real-valued inputs, \
+            usually the output of the previous layer, and applies the following formula \
+            to each element of the vector:
+
+            softmax(x_i) = exp(x_i) / sum(exp(x_j)
+
+keras normalization data :  normalizer = Normalization(axis=-1)
+                            normalizer.adapt(training_data)
+                            normalized_data = normalizer(training_data)   
+                            
+dense:      In Keras, the term "dense" is used to refer to a type of layer in a neural \
+            network. The Dense layer is one of the most commonly used layer types in \
+            deep learning models.
+
+            A Dense layer is a fully connected layer, meaning that every neuron in the \
+            layer is connected to every neuron in the previous layer. Each neuron in the \
+            Dense layer takes as input a vector of values, typically representing the \
+            output of the previous layer, and applies a set of weights to the inputs to \
+            produce a single output value.

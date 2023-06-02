@@ -1,0 +1,9 @@
+conda install matplotlib
+conda install numpy
+pip install tensorflow
+
+import numpy
+import matplotlib.pyplot
+
+// Site qui permet de visualier des reseaux de neurones 
+playground.tensorflow.org
